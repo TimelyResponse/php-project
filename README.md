@@ -1,19 +1,3 @@
-# PHP-CRUD-API
-
-Single file PHP script that adds a REST API to a MySQL/MariaDB, PostgreSQL, SQL Server or SQLite database. 
-
-Howto: Upload "`api.php`" to your webserver, configure it to connect to your database, have an instant full-featured REST API.
-
-NB: This is the [TreeQL](https://treeql.org) reference implementation in PHP.
-
-## Requirements
-
-  - PHP 7.2 or higher with PDO drivers enabled for one of these database systems:
-    - MySQL 5.7 / MariaDB 10.0 or higher for spatial features in MySQL
-    - PostgreSQL 9.5 or higher with PostGIS 2.2 or higher for spatial features
-    - SQL Server 2017 or higher (2019 also has Linux support)
-    - SQLite 3.16 or higher (spatial features NOT supported)
-
 ## Installation
 
 Download the "`api.php`" file from the latest release:
