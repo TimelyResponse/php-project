@@ -43,7 +43,7 @@ namespace Psr\Http\Message {
          *
          * @return ResponseInterface
          */
-        public function createResponse(int $code = 200, string $reasonPhrase = 'success'): ResponseInterface;
+        public function createResponse(int $code = 200, string $reasonPhrase = ''): ResponseInterface;
     }
 }
 
@@ -68,7 +68,7 @@ namespace Psr\Http\Message {
          *
          * @return ServerRequestInterface
          */
-        
+
         public function createServerRequest(string $method, $uri, array $serverParams = []): ServerRequestInterface;
     }
 }
