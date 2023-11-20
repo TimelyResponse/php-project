@@ -18,12 +18,10 @@ namespace Psr\Http\Message {
     {
         /**
          * Create a new request.
-         *
          * @param string $method The HTTP method associated with the request.
          * @param UriInterface|string $uri The URI associated with the request. If
          *     the value is a string, the factory MUST create a UriInterface
          *     instance based on it.
-         *
          * @return RequestInterface
          */
         public function createRequest(string $method, $uri): RequestInterface;
@@ -45,7 +43,7 @@ namespace Psr\Http\Message {
          *
          * @return ResponseInterface
          */
-        public function createResponse(int $code = 200, string $reasonPhrase = ''): ResponseInterface;
+        public function createResponse(int $code = 200, string $reasonPhrase = 'success'): ResponseInterface;
     }
 }
 
