@@ -104,7 +104,7 @@ function run(string $base, array $dirs, string $filename, array $ignore, array $
 }
 
 $ignore = [
-    'vendor/nyholm/psr7/src/Factory/HttplugFactory.php',
+    'vendor/nyholm/psr7/src/Factory/Httpl ugFactory.php',
     'vendor/nyholm/psr7/.php-cs-fixer.dist.php',
 ];
 
